@@ -1,6 +1,6 @@
 # ns-sort
 
-FIXME: description
+Sort your projct namespaces
 
 ## Installation
 
@@ -8,25 +8,30 @@ Download from http://example.com/FIXME.
 
 ## Usage
 
-FIXME: explanation
+Use function `sort-ns`
 
     $ java -jar ns-sort-0.1.0-standalone.jar [args]
 
-## Options
-
-FIXME: listing of options this app accepts.
-
 ## Examples
 
+```
+(sort-ns '(:require
+            [clojure.string :as string]
+            [clojure.set :as set]
+            [clojure.java.io :as io]))
+=>
+(:require
+ [clojure.java.io :as io]
+ [clojure.set :as set]
+ [clojure.string :as string])
+ ```
+
 ...
 
-### Bugs
+## Tasks
 
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+Create a function that checks all the namespaces in a project
+and sort them automatically.
 
 ## License
 
