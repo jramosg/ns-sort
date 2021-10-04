@@ -1,6 +1,6 @@
 # ns-sort
 
-Sort your projct namespaces
+Sort your project namespaces
 
 ## Installation
 
@@ -9,8 +9,6 @@ Download from http://example.com/FIXME.
 ## Usage
 
 Use function `sort-ns`
-
-    $ java -jar ns-sort-0.1.0-standalone.jar [args]
 
 ## Examples
 
